@@ -1,0 +1,33 @@
+1 - Se você já tiver instalado o OpenJDK, remova ele executando o seguinte comando:
+
+sudo apt-get purge openjdk*
+
+2 - Se ainda não tiver o repositório do Oracle Java, adicione ele o comando:
+
+sudo add-apt-repository ppa:webupd8team/java
+
+3 - Atualize o APT com o comando:
+
+sudo apt-get update
+
+4 - Se quiser instalar o Oracle Java 8, use o comando:
+
+sudo apt-get install oracle-java8-installer
+
+5 - Depois disso, se for necessário configurar automaticamente as variáveis de ambiente Java,
+você pode instalar o seguinte pacote (ajuste o nome para a versão que deseja usar):
+
+sudo apt-get install oracle-java8-set-default
+
+Fim...
+
+
+Desinstalando OpenJDK Java, usando os comandos abaixo;
+
+sudo apt-get install ppa-purge -y
+
+sudo ppa-purge ppa:webupd8team/java
+
+sudo apt-get update
+
+sudo apt-get autoremove

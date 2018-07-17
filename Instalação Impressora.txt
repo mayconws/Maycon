@@ -1,0 +1,23 @@
+Instalação da Impressora Samsung M2070:
+
+1 - Comando para Descompactar os arquivos tar.gz
+
+tar xvzf ....nome do arquivo.tar.gz
+
+2 - Acessando o diretório
+
+cd ...pasta destino
+
+3 - Acessando o arquivo de instalação
+
+chmod +x install.sh
+
+4 - Executando o instalador
+
+sudo ./install.sh
+
+5 - Confirmando a instalação
+
+y
+
+Fim...
